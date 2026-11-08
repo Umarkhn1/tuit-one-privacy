@@ -35,12 +35,12 @@
     <div class="wrap"><table>
       <tr><th>Данные</th><th>Зачем</th><th>Где хранятся</th></tr>
       <tr><td>Логин и пароль LMS</td><td>вход в LMS и автоматический повторный вход</td><td>только на телефоне; пароль зашифрован ключом Android Keystore</td></tr>
-      <tr><td>Логин и пароль OneID</td><td>вход через OneID</td><td>не сохраняются: вводятся на странице id.egov.uz</td></tr>
+      <tr><td>Логин и пароль OneID</td><td>вход через OneID</td><td>в версии из Google Play не сохраняются: вводятся на странице id.egov.uz</td></tr>
       <tr><td>Cookie сессий LMS и kontrakt.edu.uz, токен ATTO</td><td>чтобы не входить каждый раз</td><td>только на телефоне, в закрытой папке приложения</td></tr>
       <tr><td>Учебные данные (расписание, оценки, задания, посещаемость, профиль)</td><td>показ в приложении, виджеты, напоминания</td><td>кэш на телефоне</td></tr>
       <tr><td>Данные kontrakt.edu.uz (заявки, оплаты, договоры)</td><td>показ и подача заявок</td><td>кэш на телефоне</td></tr>
       <tr><td>Данные пассажиров и заказов ATTO (ФИО, документ, дата рождения, телефон)</td><td>покупка и показ билетов</td><td>на серверах ATTO; в приложении — временный кэш</td></tr>
-      <tr><td>Номер банковской карты, срок действия, SMS-код</td><td>оплата билета ATTO</td><td><b>не сохраняются</b>: передаются напрямую в ATTO в момент оплаты</td></tr>
+      <tr><td>Номер банковской карты, срок действия, SMS-код</td><td>оплата билета ATTO (только в версии с сайта; в версии из Google Play покупки и оплаты нет)</td><td><b>не сохраняются</b>: передаются напрямую в ATTO в момент оплаты</td></tr>
       <tr><td>Файлы, которые вы выбираете для загрузки</td><td>сдача заданий в LMS, справки для заявок</td><td>отправляются в LMS или kontrakt.edu.uz по вашему действию</td></tr>
     </table></div>
 
@@ -85,12 +85,12 @@
     <div class="wrap"><table>
       <tr><th>Data</th><th>Purpose</th><th>Where it is kept</th></tr>
       <tr><td>LMS username and password</td><td>signing in to the LMS and automatic re-sign-in</td><td>on the phone only; the password is encrypted with an Android Keystore key</td></tr>
-      <tr><td>OneID username and password</td><td>signing in with OneID</td><td>not stored: entered on the id.egov.uz page</td></tr>
+      <tr><td>OneID username and password</td><td>signing in with OneID</td><td>not stored in the Google Play version: entered on the id.egov.uz page</td></tr>
       <tr><td>LMS and kontrakt.edu.uz session cookies, ATTO token</td><td>to keep you signed in</td><td>on the phone only, in the app's private storage</td></tr>
       <tr><td>Study data (schedule, grades, assignments, attendance, profile)</td><td>showing it in the app, widgets, reminders</td><td>cache on the phone</td></tr>
       <tr><td>kontrakt.edu.uz data (applications, payments, contracts)</td><td>viewing and submitting applications</td><td>cache on the phone</td></tr>
       <tr><td>ATTO passenger and order data (name, ID document, date of birth, phone)</td><td>buying and showing tickets</td><td>on ATTO servers; temporary cache in the app</td></tr>
-      <tr><td>Bank card number, expiry date, SMS code</td><td>paying for ATTO tickets</td><td><b>not stored</b>: sent directly to ATTO at payment time</td></tr>
+      <tr><td>Bank card number, expiry date, SMS code</td><td>paying for ATTO tickets (website version only; the Google Play version has no purchases or payments)</td><td><b>not stored</b>: sent directly to ATTO at payment time</td></tr>
       <tr><td>Files you choose to upload</td><td>submitting LMS assignments, documents for applications</td><td>sent to the LMS or kontrakt.edu.uz when you choose to</td></tr>
     </table></div>
 
